@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/lol-cooldown-tracker/sw.js', { scope: '/lol-cooldown-tracker/' })})}
